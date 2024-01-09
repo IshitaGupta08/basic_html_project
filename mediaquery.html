@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #f4774c;
+        }
+        .navbar{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80px;
+            background-color: #af6450;
+        }
+        .navContainer{
+            display: flex;
+            width: 90%;
+            justify-content: space-around;
+            align-items: center;
+            gap: 20px;
+        }
+        .navContainer > div{
+            display: flex;
+            gap: 20px;
+        }
+        .blockOne,
+        .blockTwo,
+        .blockThree{
+            background-color: #98c2c2;
+            width: 100px;
+            height: 30px;
+        }
+        .blockFour{
+            height: 40px;
+            width: 500px;
+            background-color: #f18a64;
+        }
+        .main{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 50px;
+        }
+        .articleOne{
+            height: 500px;
+            width: 60%;
+            background-color: #93c4c9;
+            border: solid white 20px;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navcontainer">
+            <div>
+                <div class="blockOne"></div>
+                <div class="blockTwo"></div>
+                <div class="blockThree"></div>
+            </div>
+            <div class="blockFour"></div>
+        </div>
+    </nav>
+    <main class="main">
+       <article class="articleOne">
+
+       </article>
+       <div class="articlecontainer">
+        <article class="articleTwo">
+            <img src="tele.png" alt="telephone" class="telephoneImage">
+            <div class="textcontainer">
+                <div class="textSkeletonOne"></div>
+                <div class="textSkeletonTwo"></div>
+               </div>
+        </article>
+        <article class="articalThree">
+            <img src="file.png" alt="telephone" class="telephoneImage">
+            <div class="textcontainer">
+                <div class="textSkeletonOne"></div>
+                <div class="textSkeletonTwo"></div>
+               </div>
+        </article>
+       </div>
+    </main>
+</body>
+</html>
